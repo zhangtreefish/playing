@@ -1,0 +1,12 @@
+#firstP {
+/* when add display:inline, the subsequent element in html, i.e, the input, also gets inline */
+	font-size: 30px;
+	line-height: 150%;
+	text-indent: 50px;/* this creates the 2 spaces at the beginning of p */
+	background-image: url("../images/heaven.png");
+}
+
+#yourImage {
+	font-size: 30px;
+	color: rgb(0, 0, 200);/*no need to say font-color */
+}
