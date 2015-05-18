@@ -3,10 +3,20 @@
 	font-size: 30px;
 	line-height: 150%;
 	text-indent: 50px;/* this creates the 2 spaces at the beginning of p */
-	background-image: url("../images/heaven.png");
 }
 
-#yourImage {
+#story {
 	font-size: 30px;
-	color: rgb(0, 0, 200);/*no need to say font-color */
+	color: rgb(100, 0, 100);/*no need to say font-color; did not work if I stack multiple # */
+}
+#after-story {
+	font-size: 30px;
+	color: rgb(100, 0, 100);/*no need to say font-color */
+}
+#story-display{
+	font-size: 30px;
+	color: rgb(100, 0, 100);/*no need to say font-color */
+}
+.background-pic {
+	background-image: url("../images/heaven.png");
 }
