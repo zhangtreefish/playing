@@ -6,4 +6,8 @@ var onClick= function() {
 	storyArea.innerHTML +=storyView.value;
 
 };
-storyButton.addEventListener("click", onClick);
+storyButton.addEventListener("click", onClick);//this is vanilla js style
+
+$("h3").click(function(){
+	$(this).toggleClass("background-pic");
+}); //this is jQuery-dependent
